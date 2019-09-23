@@ -1,0 +1,8 @@
+<div class="card" style="width: 25rem;">
+<div class="card-body">
+ <h5 class="card-title">{{username}}</h5>
+    <p class="card-text">{{caption}}</p>
+        <like-box [nooflikes]="postlikes" (change)="postlikesupdate($event)" ></like-box>
+ </div>
+</div>
+
